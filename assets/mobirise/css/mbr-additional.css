@@ -10898,7 +10898,7 @@ a {
   .cid-sMlbJUdPkc .image-wrap img {
     display: block;
     margin: auto;
-    width: 30%;
+    width: 40%;
   }
 }
 .cid-sMlbJUdPkc .mbr-section-title {
@@ -19508,26 +19508,51 @@ a {
     margin-right: -0.6rem;
   }
 }
-.cid-sFrZuYELh7 {
-  padding-top: 10rem;
-  padding-bottom: 5rem;
+.cid-tRU7LY7e0r {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-image: url("../../../assets/images/amazing-web-solutions-aruba.webp");
 }
-.cid-sFrZuYELh7 .image-wrap img {
-  width: 100%;
+.cid-tRU7LY7e0r .mbr-fallback-image.disabled {
+  display: none;
 }
-@media (min-width: 992px) {
-  .cid-sFrZuYELh7 .image-wrap img {
-    display: block;
-    margin: auto;
-    width: 40%;
+.cid-tRU7LY7e0r .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 767px) {
+  .cid-tRU7LY7e0r .row {
+    flex-direction: column-reverse;
+  }
+  .cid-tRU7LY7e0r .mbr-figure {
+    margin-bottom: 1.5rem;
   }
 }
-.cid-sFrZuYELh7 .mbr-section-title {
+.cid-tRU7LY7e0r .row {
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .cid-tRU7LY7e0r .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-tRU7LY7e0r .media-content,
+.cid-tRU7LY7e0r .mbr-figure {
+  align-self: center;
+}
+.cid-tRU7LY7e0r .mbr-figure iframe {
+  width: 100%;
+}
+.cid-tRU7LY7e0r .mbr-section-title {
   color: #ffffff;
 }
-.cid-sFrZuYELh7 .mbr-text,
-.cid-sFrZuYELh7 .mbr-section-btn {
+.cid-tRU7LY7e0r .mbr-text,
+.cid-tRU7LY7e0r .mbr-section-btn {
   color: #ffffff;
 }
 .cid-tthtkc5SaY {

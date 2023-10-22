@@ -1277,11 +1277,11 @@ a {
 }
 .cid-sLwoT8BKKw .mbr-section-subtitle {
   text-align: center;
-  color: #ff0800;
+  color: #ffffff;
 }
 .cid-sLwoT8BKKw .mbr-section-title {
   text-align: center;
-  color: #ffffff;
+  color: #ff0800;
 }
 .cid-tRAI7DHots {
   padding-top: 1rem;
@@ -1675,8 +1675,38 @@ a {
 .cid-tRw9TSs7Sl .panel-text {
   color: #ffffff;
 }
+.cid-tR9trx2wuz {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #100f0f;
+}
+.cid-tR9trx2wuz .mbr-overlay {
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+.cid-tR9trx2wuz form .mbr-section-btn {
+  text-align: center;
+  width: 100%;
+}
+.cid-tR9trx2wuz form .mbr-section-btn .btn {
+  display: inline-flex;
+}
+@media (max-width: 991px) {
+  .cid-tR9trx2wuz form .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
+.cid-tR9trx2wuz .mbr-section-title {
+  color: #ff0800;
+}
+.cid-tR9trx2wuz .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-tR9trx2wuz LABEL {
+  color: #ffffff;
+}
 .cid-sh66EEmHuc {
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #100f0f;
 }
@@ -1708,36 +1738,6 @@ a {
 .cid-sh66EEmHuc .mbr-social-likes {
   color: #ff0800;
 }
-.cid-tR9trx2wuz {
-  padding-top: 1rem;
-  padding-bottom: 3rem;
-  background-color: #100f0f;
-}
-.cid-tR9trx2wuz .mbr-overlay {
-  background-color: #ffffff;
-  opacity: 0.4;
-}
-.cid-tR9trx2wuz form .mbr-section-btn {
-  text-align: center;
-  width: 100%;
-}
-.cid-tR9trx2wuz form .mbr-section-btn .btn {
-  display: inline-flex;
-}
-@media (max-width: 991px) {
-  .cid-tR9trx2wuz form .mbr-section-btn .btn {
-    width: 100%;
-  }
-}
-.cid-tR9trx2wuz .mbr-section-title {
-  color: #ff0800;
-}
-.cid-tR9trx2wuz .mbr-section-subtitle {
-  color: #ffffff;
-}
-.cid-tR9trx2wuz LABEL {
-  color: #ffffff;
-}
 .cid-sQMfmigc2Z {
   padding-top: 1rem;
   padding-bottom: 3rem;
@@ -1750,7 +1750,7 @@ a {
   color: #ffffff;
 }
 .cid-tSH53qyhq4 {
-  padding-top: 3rem;
+  padding-top: 4rem;
   padding-bottom: 3rem;
   background-color: #000000;
 }
@@ -19470,7 +19470,7 @@ a {
   .cid-tQy5AzkVdp .image-wrap img {
     display: block;
     margin: auto;
-    width: 40%;
+    width: 30%;
   }
 }
 .cid-tQy5AzkVdp .mbr-section-title {

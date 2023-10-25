@@ -547,6 +547,12 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 .alert-danger {
   background-color: #000000;
 }
+.mbr-section-btn a.btn:not(.btn-form) {
+  border-radius: 100px;
+}
+.mbr-gallery-filter li a {
+  border-radius: 100px !important;
+}
 .mbr-gallery-filter li.active .btn {
   background-color: #ff0800;
   border-color: #ff0800;
@@ -554,6 +560,9 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
+}
+.nav-tabs .nav-link {
+  border-radius: 100px !important;
 }
 a,
 a:hover {
@@ -610,6 +619,19 @@ blockquote {
   border-color: #ff0800;
 }
 /* Forms */
+.mbr-form .input-group-btn a.btn {
+  border-radius: 100px !important;
+}
+.mbr-form .input-group-btn a.btn:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
+.mbr-form .input-group-btn button[type="submit"] {
+  border-radius: 100px !important;
+  padding: 1rem 3rem;
+}
+.mbr-form .input-group-btn button[type="submit"]:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
   background-color: #ff0800;
@@ -741,7 +763,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -764,7 +785,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -820,7 +840,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -850,7 +869,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -1181,7 +1199,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -1891,7 +1908,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -1914,7 +1930,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -1970,7 +1985,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -2000,7 +2014,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -2331,7 +2344,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -2671,7 +2683,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -2694,7 +2705,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -2750,7 +2760,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -2780,7 +2789,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -3111,7 +3119,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -3462,7 +3469,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -3485,7 +3491,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -3541,7 +3546,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -3571,7 +3575,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -3902,7 +3905,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -4242,7 +4244,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -4265,7 +4266,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -4321,7 +4321,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -4351,7 +4350,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -4682,7 +4680,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -5039,7 +5036,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -5062,7 +5058,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -5118,7 +5113,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -5148,7 +5142,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -5479,7 +5472,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -5830,7 +5822,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -5853,7 +5844,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -5909,7 +5899,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -5939,7 +5928,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -6270,7 +6258,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -6587,7 +6574,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -6610,7 +6596,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -6666,7 +6651,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -6696,7 +6680,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -7027,7 +7010,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -7333,7 +7315,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -7356,7 +7337,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -7412,7 +7392,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -7442,7 +7421,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -7773,7 +7751,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -8122,7 +8099,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -8145,7 +8121,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -8201,7 +8176,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -8231,7 +8205,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -8562,7 +8535,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -9107,7 +9079,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -9130,7 +9101,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -9186,7 +9156,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -9216,7 +9185,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -9547,7 +9515,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -10133,7 +10100,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -10156,7 +10122,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -10212,7 +10177,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -10242,7 +10206,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -10573,7 +10536,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -10922,7 +10884,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -10945,7 +10906,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -11001,7 +10961,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -11031,7 +10990,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -11362,7 +11320,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -11766,7 +11723,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -11789,7 +11745,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -11845,7 +11800,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -11875,7 +11829,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -12206,7 +12159,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -12529,7 +12481,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -12552,7 +12503,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -12608,7 +12558,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -12638,7 +12587,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -12969,7 +12917,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -13044,7 +12991,7 @@ a {
   .cid-sT2hRbk69d .image-wrap img {
     display: block;
     margin: auto;
-    width: 30%;
+    width: 40%;
   }
 }
 .cid-sT2hRbk69d .mbr-section-title {
@@ -13335,7 +13282,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -13358,7 +13304,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -13414,7 +13359,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -13444,7 +13388,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -13775,7 +13718,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -14149,7 +14091,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -14172,7 +14113,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -14228,7 +14168,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -14258,7 +14197,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -14589,7 +14527,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -14823,7 +14760,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -14846,7 +14782,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -14902,7 +14837,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -14932,7 +14866,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -15263,7 +15196,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -15655,7 +15587,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -15678,7 +15609,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -15734,7 +15664,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -15764,7 +15693,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -16095,7 +16023,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -16417,7 +16344,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -16440,7 +16366,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -16496,7 +16421,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -16526,7 +16450,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -16857,7 +16780,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -17430,7 +17352,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -17453,7 +17374,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -17509,7 +17429,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -17539,7 +17458,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -17870,7 +17788,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -18438,7 +18355,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -18461,7 +18377,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -18517,7 +18432,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -18547,7 +18461,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -18878,7 +18791,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -19223,7 +19135,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -19246,7 +19157,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -19302,7 +19212,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -19332,7 +19241,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -19663,7 +19571,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -20082,7 +19989,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -20105,7 +20011,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -20161,7 +20066,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -20191,7 +20095,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -20522,7 +20425,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -20753,7 +20655,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -20776,7 +20677,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -20832,7 +20732,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -20862,7 +20761,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -21193,7 +21091,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -21601,7 +21498,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -21624,7 +21520,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -21680,7 +21575,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -21710,7 +21604,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -22041,7 +21934,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -22381,7 +22273,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -22404,7 +22295,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -22460,7 +22350,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -22490,7 +22379,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -22821,7 +22709,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -23406,7 +23293,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -23429,7 +23315,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -23485,7 +23370,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -23515,7 +23399,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -23846,7 +23729,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;
@@ -24189,7 +24071,6 @@ a {
   margin: 0 !important;
   border-radius: 1rem !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .nav-item .nav-link:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -24212,7 +24093,6 @@ a {
   border-radius: 0.5rem !important;
   margin: 0 8px !important;
   transition: .3s all !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .navbar-nav .dropdown-item:hover {
   background-color: rgba(27, 31, 10, 0.06);
@@ -24268,7 +24148,6 @@ a {
   margin-top: 1rem;
   background-color: #100f0f;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  border-radius: 4px !important;
 }
 @media (max-width: 992px) {
   .cid-tRZEszry3v .container {
@@ -24298,7 +24177,6 @@ a {
   min-width: auto;
   background: #100f0f;
   background: rgba(16, 15, 15, 0.3) !important;
-  border-radius: 4px !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -24629,7 +24507,6 @@ a {
     border-color: rgba(16, 15, 15, 0.3) !important;
     background: rgba(16, 15, 15, 0.3) !important;
     backdrop-filter: blur(8px);
-    border-radius: 4px !important;
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
     margin-left: 10px;

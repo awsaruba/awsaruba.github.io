@@ -826,7 +826,7 @@ a {
   height: 90px;
   padding: 0.5rem 0.6rem;
   flex-wrap: nowrap;
-  background: rgba(16, 15, 15, 0.3) !important;
+  background: rgba(0, 0, 0, 0.3) !important;
   left: 0;
   right: 0;
   -webkit-box-pack: justify;
@@ -838,7 +838,7 @@ a {
   align-items: center;
   border-radius: 100vw;
   margin-top: 1rem;
-  background-color: #100f0f;
+  background-color: #000000;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
 }
 @media (max-width: 992px) {
@@ -867,8 +867,8 @@ a {
   border-radius: 1.5rem;
   transition: .3s all !important;
   min-width: auto;
-  background: #100f0f;
-  background: rgba(16, 15, 15, 0.3) !important;
+  background: #000000;
+  background: rgba(0, 0, 0, 0.3) !important;
 }
 .cid-tRZEszry3v .nav-item:focus,
 .cid-tRZEszry3v .nav-link:focus {
@@ -1030,7 +1030,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-tRZEszry3v .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #100f0f;
+  background: #000000;
 }
 .cid-tRZEszry3v .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -1194,10 +1194,10 @@ a {
     width: 100%;
     padding: 1rem;
     border-radius: 1.5rem;
-    background: #100f0f;
+    background: #000000;
     opacity: 1;
-    border-color: rgba(16, 15, 15, 0.3) !important;
-    background: rgba(16, 15, 15, 0.3) !important;
+    border-color: rgba(0, 0, 0, 0.3) !important;
+    background: rgba(0, 0, 0, 0.3) !important;
     backdrop-filter: blur(8px);
   }
   .cid-tRZEszry3v .navbar-nav .nav-item .nav-link::after {
@@ -23792,7 +23792,7 @@ a {
 }
 .cid-scALLvM0UJ {
   padding-top: 10rem;
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
   background-image: url("../../../assets/images/aws-aruba-web-development-.webp");
 }
 .cid-scALLvM0UJ .mbr-text,

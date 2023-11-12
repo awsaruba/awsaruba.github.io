@@ -122,7 +122,11 @@
       "bgColor": "#0684ff",
       "iconColor": "#b0b2b5",
       "placeholderText": "Password"
-    }
+    },
+    "publishType": "github",
+    "publishPath": "@PROJECT_PATH@",
+    "gitHubName": "awsaruba",
+    "gitHubPath": ""
   },
   "pages": {
     "index.html": {

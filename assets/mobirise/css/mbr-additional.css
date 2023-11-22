@@ -18131,7 +18131,7 @@ a {
   .cid-tQy5AzkVdp .image-wrap img {
     display: block;
     margin: auto;
-    width: 40%;
+    width: 50%;
   }
 }
 .cid-tQy5AzkVdp .mbr-section-title {
@@ -18436,6 +18436,43 @@ a {
 .cid-tRaOMe9BWS .card-title,
 .cid-tRaOMe9BWS .iconfont-wrapper {
   color: #ff0800;
+}
+.cid-tVPD64KmKd {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #100f0f;
+}
+.cid-tVPD64KmKd .counter-container ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 2.5rem;
+}
+.cid-tVPD64KmKd .counter-container ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+  position: relative;
+  padding-left: 1rem;
+}
+.cid-tVPD64KmKd .counter-container ul li:before {
+  position: absolute;
+  left: -40px;
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #ff0800;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+  content: "✓";
+}
+.cid-tVPD64KmKd .mbr-section-title {
+  color: #ffffff;
+}
+.cid-tVPD64KmKd .mbr-text {
+  color: #ffffff;
 }
 .cid-tQy5AAIi10 {
   padding-top: 1rem;

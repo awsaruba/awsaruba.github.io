@@ -1595,6 +1595,23 @@ a {
 .cid-tRAIsuTLJb .iconfont-wrapper {
   color: #ff0800;
 }
+.cid-tXeS6UlVkl {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #100f0f;
+}
+.cid-tXeS6UlVkl .mbr-text {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-tXeS6UlVkl .mbr-section-subtitle {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-tXeS6UlVkl .mbr-section-title {
+  text-align: center;
+  color: #ff0800;
+}
 .cid-tjEl2PQoHg {
   padding-top: 1rem;
   padding-bottom: 0rem;
@@ -3402,26 +3419,51 @@ a {
     padding: 1rem;
   }
 }
-.cid-sUyt8wf8u3 {
-  padding-top: 9rem;
-  padding-bottom: 5rem;
+.cid-tX3iiNPopk {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-image: url("../../../assets/images/aws-aruba-web-development-.webp");
 }
-.cid-sUyt8wf8u3 .image-wrap img {
-  width: 100%;
+.cid-tX3iiNPopk .mbr-fallback-image.disabled {
+  display: none;
 }
-@media (min-width: 992px) {
-  .cid-sUyt8wf8u3 .image-wrap img {
-    display: block;
-    margin: auto;
-    width: 40%;
+.cid-tX3iiNPopk .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 767px) {
+  .cid-tX3iiNPopk .row {
+    flex-direction: column-reverse;
+  }
+  .cid-tX3iiNPopk .mbr-figure {
+    margin-bottom: 1.5rem;
   }
 }
-.cid-sUyt8wf8u3 .mbr-section-title {
+.cid-tX3iiNPopk .row {
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .cid-tX3iiNPopk .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-tX3iiNPopk .media-content,
+.cid-tX3iiNPopk .mbr-figure {
+  align-self: center;
+}
+.cid-tX3iiNPopk .mbr-figure iframe {
+  width: 100%;
+}
+.cid-tX3iiNPopk .mbr-section-title {
   color: #ffffff;
 }
-.cid-sUyt8wf8u3 .mbr-text,
-.cid-sUyt8wf8u3 .mbr-section-btn {
+.cid-tX3iiNPopk .mbr-text,
+.cid-tX3iiNPopk .mbr-section-btn {
   color: #ffffff;
 }
 .cid-sg32mEUcQk {
@@ -3435,7 +3477,7 @@ a {
 }
 .cid-sg32mEUcQk .mbr-section-subtitle {
   text-align: center;
-  color: #000000;
+  color: #ffffff;
 }
 .cid-sg32mEUcQk .mbr-section-title {
   text-align: center;
@@ -23112,26 +23154,51 @@ a {
     padding: 1rem;
   }
 }
-.cid-sFzQaAn6r4 {
-  padding-top: 9rem;
-  padding-bottom: 5rem;
+.cid-tXw1pgk8jp {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-image: url("../../../assets/images/aws-aruba-web-development-.webp");
 }
-.cid-sFzQaAn6r4 .image-wrap img {
-  width: 100%;
+.cid-tXw1pgk8jp .mbr-fallback-image.disabled {
+  display: none;
 }
-@media (min-width: 992px) {
-  .cid-sFzQaAn6r4 .image-wrap img {
-    display: block;
-    margin: auto;
-    width: 40%;
+.cid-tXw1pgk8jp .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 767px) {
+  .cid-tXw1pgk8jp .row {
+    flex-direction: column-reverse;
+  }
+  .cid-tXw1pgk8jp .mbr-figure {
+    margin-bottom: 1.5rem;
   }
 }
-.cid-sFzQaAn6r4 .mbr-section-title {
+.cid-tXw1pgk8jp .row {
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .cid-tXw1pgk8jp .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-tXw1pgk8jp .media-content,
+.cid-tXw1pgk8jp .mbr-figure {
+  align-self: center;
+}
+.cid-tXw1pgk8jp .mbr-figure iframe {
+  width: 100%;
+}
+.cid-tXw1pgk8jp .mbr-section-title {
   color: #ffffff;
 }
-.cid-sFzQaAn6r4 .mbr-text,
-.cid-sFzQaAn6r4 .mbr-section-btn {
+.cid-tXw1pgk8jp .mbr-text,
+.cid-tXw1pgk8jp .mbr-section-btn {
   color: #ff0800;
 }
 .cid-sInF0fdNwT {

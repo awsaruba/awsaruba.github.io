@@ -5,7 +5,7 @@ body {
   font-family: Jost;
 }
 .display-1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Comfortaa', display;
   font-size: 4.8rem;
   line-height: 1.1;
 }
@@ -13,7 +13,7 @@ body {
   font-size: 6rem;
 }
 .display-2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Comfortaa', display;
   font-size: 2.6rem;
   line-height: 1.1;
 }
@@ -29,7 +29,7 @@ body {
   font-size: 1.25rem;
 }
 .display-5 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Comfortaa', display;
   font-size: 1.8rem;
   line-height: 1.5;
 }
@@ -3420,7 +3420,7 @@ a {
   }
 }
 .cid-tX3iiNPopk {
-  padding-top: 6rem;
+  padding-top: 10rem;
   padding-bottom: 6rem;
   background-image: url("../../../assets/images/aws-aruba-web-development-.webp");
 }
@@ -3468,7 +3468,7 @@ a {
 }
 .cid-sg32mEUcQk {
   padding-top: 3rem;
-  padding-bottom: 0rem;
+  padding-bottom: 1rem;
   background-color: #100f0f;
 }
 .cid-sg32mEUcQk .mbr-text {
@@ -3494,7 +3494,7 @@ a {
 }
 .cid-snIQEjreFm .mbr-section-subtitle {
   text-align: center;
-  color: #000000;
+  color: #ffffff;
 }
 .cid-snIQEjreFm .mbr-section-title {
   text-align: center;
@@ -3536,7 +3536,7 @@ a {
 }
 .cid-sTMRcYZJhg {
   padding-top: 1rem;
-  padding-bottom: 0rem;
+  padding-bottom: 1rem;
   background-color: #100f0f;
 }
 .cid-sTMRcYZJhg .mbr-section-title {
@@ -8965,48 +8965,6 @@ a {
 .cid-tu8v26yoyA .mbr-section-subtitle {
   color: #232323;
 }
-.cid-tiHyNu8CGX {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: #100f0f;
-}
-.cid-tiHyNu8CGX .content-wrapper {
-  background: #232323;
-}
-@media (max-width: 991px) {
-  .cid-tiHyNu8CGX .content-wrapper .image-wrapper {
-    margin-bottom: 2rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-tiHyNu8CGX .content-wrapper {
-    padding: 1rem;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .cid-tiHyNu8CGX .content-wrapper {
-    padding: 2rem;
-  }
-}
-@media (min-width: 992px) {
-  .cid-tiHyNu8CGX .content-wrapper {
-    padding: 5rem 3rem;
-  }
-  .cid-tiHyNu8CGX .content-wrapper .text-wrapper {
-    padding-left: 2rem;
-  }
-}
-.cid-tiHyNu8CGX .image-wrapper img {
-  width: 100%;
-  object-fit: cover;
-}
-.cid-tiHyNu8CGX .card-title {
-  color: #ff0800;
-}
-.cid-tiHyNu8CGX .mbr-text,
-.cid-tiHyNu8CGX .mbr-section-btn {
-  color: #ffffff;
-}
 .cid-tiHyOlaM68 {
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -9047,6 +9005,48 @@ a {
 }
 .cid-tiHyOlaM68 .mbr-text,
 .cid-tiHyOlaM68 .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-tiHyNu8CGX {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #100f0f;
+}
+.cid-tiHyNu8CGX .content-wrapper {
+  background: #232323;
+}
+@media (max-width: 991px) {
+  .cid-tiHyNu8CGX .content-wrapper .image-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-tiHyNu8CGX .content-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .cid-tiHyNu8CGX .content-wrapper {
+    padding: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-tiHyNu8CGX .content-wrapper {
+    padding: 5rem 3rem;
+  }
+  .cid-tiHyNu8CGX .content-wrapper .text-wrapper {
+    padding-left: 2rem;
+  }
+}
+.cid-tiHyNu8CGX .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-tiHyNu8CGX .card-title {
+  color: #ff0800;
+}
+.cid-tiHyNu8CGX .mbr-text,
+.cid-tiHyNu8CGX .mbr-section-btn {
   color: #ffffff;
 }
 .cid-sT6zewvT0e {
@@ -14102,26 +14102,66 @@ a {
     padding: 1rem;
   }
 }
-.cid-sUygMUPcV6 {
-  padding-top: 9rem;
-  padding-bottom: 5rem;
-  background-image: url("../../../assets/images/abstract-140898.webp");
+.cid-tYR1n83MkB {
+  padding-top: 15rem;
+  padding-bottom: 8rem;
+  background-image: url("../../../assets/images/aws-aruba-graphic-design-1440x823.webp");
+  overflow: hidden;
 }
-.cid-sUygMUPcV6 .image-wrap img {
+.cid-tYR1n83MkB .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tYR1n83MkB .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
   width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
-@media (min-width: 992px) {
-  .cid-sUygMUPcV6 .image-wrap img {
-    display: block;
-    margin: auto;
-    width: 70%;
+.cid-tYR1n83MkB path {
+  fill: #ff0800;
+}
+@keyframes wave3 {
+  0% {
+    transform: scaleY(0.9) translate(-50%, -50%);
+  }
+  50% {
+    transform: scaleY(1.1) translate(-50%, -50%);
+  }
+  100% {
+    transform: scaleY(0.9) translate(-50%, -50%);
   }
 }
-.cid-sUygMUPcV6 .mbr-section-title {
+.cid-tYR1n83MkB b,
+.cid-tYR1n83MkB strong {
+  font-weight: 900;
+}
+.cid-tYR1n83MkB svg {
+  position: absolute;
+  top: 30px;
+  left: 45%;
+  right: 50%;
+  animation: 5s ease infinite wave3;
+  transform-origin: top;
+  transform: scaleY(0.8) translate(-50%, -50%);
+}
+.cid-tYR1n83MkB a {
+  font-weight: 900;
+  background: #ffffff;
+}
+.cid-tYR1n83MkB .mbr-section-subtitle {
+  text-align: center;
   color: #ffffff;
 }
-.cid-sUygMUPcV6 .mbr-text,
-.cid-sUygMUPcV6 .mbr-section-btn {
+.cid-tYR1n83MkB .mbr-text,
+.cid-tYR1n83MkB .mbr-section-btn {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-tYR1n83MkB .mbr-section-title {
+  text-align: center;
   color: #ffffff;
 }
 .cid-sISUxUtwGN {
@@ -16457,7 +16497,7 @@ a {
 }
 .cid-tiCNH5qyvW .mbr-section-subtitle {
   text-align: center;
-  color: #000000;
+  color: #ffffff;
 }
 .cid-tiCNH5qyvW .mbr-section-title {
   text-align: center;
@@ -18217,7 +18257,7 @@ a {
 }
 .cid-tWNn5lgw3J .mbr-text,
 .cid-tWNn5lgw3J .mbr-section-btn {
-  color: #ffffff;
+  color: #ff0800;
 }
 .cid-tR9GzUuaYh {
   padding-top: 3rem;
@@ -18515,23 +18555,23 @@ a {
 .cid-tRaOMe9BWS .iconfont-wrapper {
   color: #ff0800;
 }
-.cid-tVPD64KmKd {
+.cid-tZnD819ENo {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #100f0f;
 }
-.cid-tVPD64KmKd .counter-container ul {
+.cid-tZnD819ENo .counter-container ul {
   margin: 0;
   list-style: none;
   padding-left: 2.5rem;
 }
-.cid-tVPD64KmKd .counter-container ul li {
+.cid-tZnD819ENo .counter-container ul li {
   margin-bottom: 1rem;
   list-style: none;
   position: relative;
   padding-left: 1rem;
 }
-.cid-tVPD64KmKd .counter-container ul li:before {
+.cid-tZnD819ENo .counter-container ul li:before {
   position: absolute;
   left: -40px;
   content: "";
@@ -18546,10 +18586,10 @@ a {
   margin-top: 5px;
   content: "✓";
 }
-.cid-tVPD64KmKd .mbr-section-title {
+.cid-tZnD819ENo .mbr-section-title {
   color: #ffffff;
 }
-.cid-tVPD64KmKd .mbr-text {
+.cid-tZnD819ENo .mbr-text {
   color: #ffffff;
 }
 .cid-tQy5AAIi10 {
@@ -19270,6 +19310,10 @@ a {
 .cid-srUTb21FH0 .mbr-section-title {
   color: #ff0800;
   text-align: center;
+}
+.cid-srUTb21FH0 .mbr-section-subtitle {
+  text-align: center;
+  color: #ffffff;
 }
 .cid-srXc4pH3EH {
   padding-top: 1rem;
@@ -23155,7 +23199,7 @@ a {
   }
 }
 .cid-tXw1pgk8jp {
-  padding-top: 6rem;
+  padding-top: 10rem;
   padding-bottom: 6rem;
   background-image: url("../../../assets/images/aws-aruba-web-development-.webp");
 }

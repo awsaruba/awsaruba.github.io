@@ -1,0 +1,3 @@
+
+(function(){function a(){if(!document.querySelector("html").classList.contains("is-builder")){var a=!0;window.addEventListener("scroll",function(){a&&0!==document.documentElement.scrollTop&&80<=(document.documentElement.scrollTop+window.innerHeight)/document.documentElement.offsetHeight*100&&(document.querySelectorAll(".mbr-popup[data-on-scroll]").forEach(function(a){var b;"undefined"!==typeof bootstrap?("undefined"!==typeof bootstrap.Modal.getInstance&&(b=bootstrap.Modal.getInstance(a)),b||(b=new bootstrap.Modal(a),
+{keyboard:!1}),b.show()):"undefined"!==typeof jQuery&&$(a).modal({keyboard:!1})}),a=!1)})}}"complete"===document.readyState||"interactive"===document.readyState?a():document.addEventListener("DOMContentLoaded",function(){a()})})();

@@ -551,6 +551,12 @@
 .socicon-zynga:before {
   content: "\e0a9";
 }
+.socicon-bluesky:before {
+  content: "\e0aa";
+}
+.socicon-threads:before {
+  content: "\e0ab";
+}
 .socicon-spreadshirt:before {
   content: "\e901";
 }
